@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Typescript Assignment</title>
+
+
+</head>
+
+<body>
+    <form name="myform" id="myform">
+     <label for="name">Name :</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="class">Class :</label><br>
+    <select id="class" name="class" required>
+      <option value="1">1st</option>
+      <option value="2">2nd</option>
+      <option value="3">3rd</option>
+      <option value="4">4th</option>
+      <option value="5">5th</option>
+      <option value="6">6th</option>
+      <option value="7">7th</option>
+      <option value="8">8th</option>
+      <option value="9">9th</option>
+      <option value="10">10th</option>
+      <option value="11">11th</option>
+      <option value="12">12th</option>
+    </select><br><br>
+
+
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" required>
+    <span id="ageErr" style="color:red;font-size:0.9em;"></span>
+    <br><br>
+    <label for="school">School Name :</label><br>
+    <select id="school" name="school" required>
+      <option value="basil">basil</option>
+      <option value="kv">kv</option>
+      <option value="gps">gps</option>
+      <option value="dps">dps</option>
+    </select><br><br>
+    <label for="favs">Favourite subject :</label><br/>
+    <select id="favs" name="favs" required>
+      <option value="Maths">Maths</option>
+      <option value="Java">Java</option>
+      <option value="History">History</option>
+      <option value="English">English</option>
+      <option value="Python">Python</option>
+    </select><br><br>
+    <input type="submit" id="submit" value="Submit">
+  </form>
+  <form id="search"><br/><br/>
+    <label for="searchtxt">Search :</label><br>
+    <input type="text" name="searchtxt" id="searchtxt"></input> 
+    <input type="submit" id="searchbtn" value="search">
+  </form><br/>
+  <ul id="out-wrap"></ul>
+  <script src="../myCompiledOutput/app.js"></script>
+</body>
+</html>
